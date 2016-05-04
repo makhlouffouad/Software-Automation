@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Cnn App running on firefox Browser">
+<suite name="Cnn App running on chrome Browser">
 
-    <parameter name="useCloud" value="false"/>
+
+    <parameter name="usecloud" value="false"/>
     <parameter name="userName" value="fmakhlouf"/>
     <parameter name="accessKey" value="47fce140-629d-4987-9e58-39b3ad3d5377"/>
     <parameter name="os" value="Windows 7"/>
     <parameter name="url" value="http://www.cnn.com"/>
     <parameter name="browserName" value="firefox"/>
-    <parameter name="browserVersion" value="46"/>
+    <parameter name="browserversion" value="46"/>
 
     <test name="Home Page">
-
         <classes>
+            <!--<class name="news.SearchNewsFromDB"/>-->
             <class name="news.Search"/>
         </classes>
-
     </test>
 </suite>
