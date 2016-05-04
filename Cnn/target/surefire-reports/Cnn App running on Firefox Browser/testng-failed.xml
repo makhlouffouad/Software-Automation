@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Cnn App running on firefox Browser]">
+  <parameter name="os" value="Windows 7"/>
+  <parameter name="accessKey" value="47fce140-629d-4987-9e58-39b3ad3d5377"/>
+  <parameter name="browserVersion" value="46"/>
+  <parameter name="browserName" value="firefox"/>
+  <parameter name="useCloud" value="true"/>
+  <parameter name="userName" value="fmakhlouf"/>
+  <parameter name="url" value="http://www.cnn.com"/>
+  <test name="Home Page">
+    <classes>
+      <class name="news.Search"/>
+    </classes>
+  </test> <!-- Home Page -->
+  <test name="Home Page(failed)">
+    <classes>
+      <class name="news.Search">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchNews"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- news.Search -->
+    </classes>
+  </test> <!-- Home Page(failed) -->
+</suite> <!-- Failed suite [Cnn App running on firefox Browser] -->
