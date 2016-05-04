@@ -32,8 +32,8 @@
       <file leaf-file-name="CnnTestRunner.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="377">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -824,7 +824,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit more API" />
     <MESSAGE value="initial commit more API and more" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit more API and more" />
+    <MESSAGE value="initial commit more API and more and more" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit more API and more and more" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1231,8 +1232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="377">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding />
         </state>
       </provider>
