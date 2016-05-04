@@ -24,7 +24,6 @@
         <processorPath useClasspath="true" />
         <module name="Amazon" />
         <module name="Cnn" />
-        <module name="Facebook" />
         <module name="Generic" />
       </profile>
     </annotationProcessing>

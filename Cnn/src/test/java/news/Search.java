@@ -7,13 +7,13 @@ import reader.ReadNewsData;
 import java.io.IOException;
 
 /**
- * Created by dell on 4/28/2016.
+ * Created by rrt on 4/23/2016.
  */
-public class Search extends CommonAPI {
+public class Search extends CommonAPI{
     ReadNewsData readNewsData = new ReadNewsData();
     @Test
     public void searchNews() throws InterruptedException,IOException{
-        String [] data = readNewsData.getData();
+        String [] data = readNewsData.getDataFromExcelFile();
         clickByCss("#search-button");
         Thread.sleep(1000);
         int counter = 0;
