@@ -3,13 +3,13 @@
 <suite name="Cnn App running on chrome Browser">
 
 
-    <parameter name="usecloud" value="false"/>
+    <parameter name="usecloud" value="true"/>
     <parameter name="userName" value="fmakhlouf"/>
     <parameter name="accessKey" value="47fce140-629d-4987-9e58-39b3ad3d5377"/>
     <parameter name="os" value="Windows 7"/>
     <parameter name="url" value="http://www.cnn.com"/>
     <parameter name="browserName" value="firefox"/>
-    <parameter name="browserversion" value="46"/>
+    <parameter name="browserVersion" value="46"/>
 
     <test name="Home Page">
         <classes>

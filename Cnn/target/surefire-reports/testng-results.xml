@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Cnn App running on firefox Browser" duration-ms="38874" started-at="2016-05-01T04:23:59Z" finished-at="2016-05-01T04:24:38Z">
+  <suite name="Cnn App running on chrome Browser" duration-ms="38290" started-at="2016-05-04T20:03:00Z" finished-at="2016-05-04T20:03:38Z">
     <groups>
     </groups>
-    <test name="Home Page" duration-ms="38874" started-at="2016-05-01T04:23:59Z" finished-at="2016-05-01T04:24:38Z">
+    <test name="Home Page" duration-ms="38290" started-at="2016-05-04T20:03:00Z" finished-at="2016-05-04T20:03:38Z">
       <class name="news.Search">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:news.Search@13969fbe]" name="setUp" is-config="true" duration-ms="17968" started-at="2016-05-01T00:23:59Z" finished-at="2016-05-01T00:24:17Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:news.Search@3f2a3a5]" name="setUp" is-config="true" duration-ms="17040" started-at="2016-05-04T16:03:00Z" finished-at="2016-05-04T16:03:17Z">
           <params>
             <param index="0">
               <value>
@@ -48,31 +48,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="searchNews()[pri:0, instance:news.Search@13969fbe]" name="searchNews" duration-ms="20695" started-at="2016-05-01T00:24:17Z" finished-at="2016-05-01T00:24:37Z">
+        <test-method status="FAIL" signature="searchNews()[pri:0, instance:news.Search@3f2a3a5]" name="searchNews" duration-ms="21034" started-at="2016-05-04T16:03:17Z" finished-at="2016-05-04T16:03:38Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[Element is not currently visible and so may not be interacted with
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'WIN-R1JBAO1CNPS', ip: '172.20.49.83', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_73'
+System info: host: 'WIN-R1JBAO1CNPS', ip: '172.20.115.206', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_73'
 Driver info: driver.version: unknown
-Command duration or timeout: 20.36 seconds
+Command duration or timeout: 20.23 seconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'dell-PC', ip: '192.168.93.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=3d1cd1d13f554e739dcfb71eb56aaa50, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3d1cd1d13f554e739dcfb71eb56aaa50]]>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=0287c864305f45c694410487d01875b7, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0287c864305f45c694410487d01875b7]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'WIN-R1JBAO1CNPS', ip: '172.20.49.83', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_73'
+System info: host: 'WIN-R1JBAO1CNPS', ip: '172.20.115.206', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_73'
 Driver info: driver.version: unknown
-Command duration or timeout: 20.36 seconds
+Command duration or timeout: 20.23 seconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'dell-PC', ip: '192.168.93.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=3d1cd1d13f554e739dcfb71eb56aaa50, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3d1cd1d13f554e739dcfb71eb56aaa50
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=0287c864305f45c694410487d01875b7, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0287c864305f45c694410487d01875b7
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -82,8 +82,8 @@ Session ID: 3d1cd1d13f554e739dcfb71eb56aaa50
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at base.CommonAPI.clickByXpath(CommonAPI.java:91)
-	at news.Search.searchNews(Search.java:13)
+	at base.CommonAPI.clickByXpath(CommonAPI.java:90)
+	at news.Search.searchNews(Search.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -113,26 +113,26 @@ Session ID: 3d1cd1d13f554e739dcfb71eb56aaa50
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'WIN-R1JBAO1CNPS', ip: '172.20.49.83', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_73'
+System info: host: 'WIN-R1JBAO1CNPS', ip: '172.20.115.206', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_73'
 Driver info: driver.version: unknown
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'dell-PC', ip: '192.168.93.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
 Driver info: driver.version: unknown
-	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous6126051808691313224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
-	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous6126051808691313224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous6126051808691313224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous6126051808691313224webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous4071456572134587113webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous4071456572134587113webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous4071456572134587113webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous4071456572134587113webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchNews -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:news.Search@13969fbe]" name="cleanUp" is-config="true" duration-ms="185" started-at="2016-05-01T00:24:37Z" finished-at="2016-05-01T00:24:38Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:news.Search@3f2a3a5]" name="cleanUp" is-config="true" duration-ms="179" started-at="2016-05-04T16:03:38Z" finished-at="2016-05-04T16:03:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- news.Search -->
     </test> <!-- Home Page -->
-  </suite> <!-- Cnn App running on firefox Browser -->
+  </suite> <!-- Cnn App running on chrome Browser -->
 </testng-results>

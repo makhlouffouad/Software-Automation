@@ -15,6 +15,7 @@ public class Search extends CommonAPI{
     public void searchNews() throws InterruptedException,IOException{
         String [] data = readNewsData.getDataFromExcelFile();
         clickByCss("#search-button");
+        //clickByXpath("//*[@id='search-button']");
         Thread.sleep(1000);
         int counter = 0;
         for(String st:data){
