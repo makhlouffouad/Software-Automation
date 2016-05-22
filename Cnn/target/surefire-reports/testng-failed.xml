@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Cnn App running on chrome Browser]">
   <parameter name="os" value="Windows 7"/>
-  <parameter name="accessKey" value="47fce140-629d-4987-9e58-39b3ad3d5377"/>
+  <parameter name="accessKey" value="fd1c1d76-64cf-45ac-8778-e15f6d03e6b0"/>
   <parameter name="browserVersion" value="46"/>
   <parameter name="browserName" value="firefox"/>
   <parameter name="usecloud" value="true"/>
-  <parameter name="userName" value="fmakhlouf"/>
+  <parameter name="userName" value="Ashaily22"/>
   <parameter name="url" value="http://www.cnn.com"/>
   <test name="Home Page">
     <classes>

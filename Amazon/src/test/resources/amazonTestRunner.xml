@@ -2,9 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Amazon App running on Firefox Browser">
 
-    <parameter name="usecloud" value="true"/>
-    <parameter name="userName" value="fmakhlouf"/>
-    <parameter name="accessKey" value="47fce140-629d-4987-9e58-39b3ad3d5377"/>    <parameter name="os" value="Windows 10"/>
+    <parameter name="usecloud" value="false"/>
+    <!--<parameter name="userName" value="fmakhlouf"/>
+    <parameter name="accessKey" value="47fce140-629d-4987-9e58-39b3ad3d5377"/> -->
+    <parameter name="userName" value="Ashaily22"/>
+    <parameter name="accessKey" value="fd1c1d76-64cf-45ac-8778-e15f6d03e6b0"/>
+    <parameter name="os" value="Windows 10"/>
     <parameter name="url" value="http://www.amazon.com"/>
     <parameter name="browserName" value="firefox"/>
     <parameter name="browserversion" value="46"/>
@@ -14,6 +17,7 @@
         <classes>
             <!--<class name="search.ItemSearch"/>-->
             <class name="search.Products"/>
+
         </classes>
 
     </test>

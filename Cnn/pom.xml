@@ -50,7 +50,7 @@
     </build>
 
     <properties>
-        <CnnAppRunner>CnnTestRunner.xml</CnnAppRunner>
+        <CnnAppRunner>cnnTestRunner.xml</CnnAppRunner>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
